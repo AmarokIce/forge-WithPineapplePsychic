@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="PineapplePL / AFL-3.0"
+[[mods]]
+modId="pineapple_psychic"
+version="${file.jarVersion}"
+displayName="Pineapple Psychic"
+logoFile="pineapple_psychic.png"
+credits="Thanks for this example mod goes to Java"
+authors="Love, Cheese and small house plants"
+description='''
+'''
+[[dependencies.pineapple_psychic]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pineapple_psychic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
